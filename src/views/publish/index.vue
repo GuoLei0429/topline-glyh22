@@ -1,20 +1,20 @@
 <template>
-  <div id="app">
-    <router-view/>
-   </div>
+  <div>
+    <p>Publish Component</p>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'App',
+  name: 'AppPublish',
   data () {
-    return {}
+    return {
+
+    }
   }
 }
 </script>
 
 <style lang="less" scoped>
- #app {
-   height: 100%;
- }
+
 </style>
